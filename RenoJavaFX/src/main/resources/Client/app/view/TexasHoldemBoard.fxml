@@ -34,7 +34,7 @@
                               <Button id="btnSit4" mnemonicParsing="false" onAction="#btnSitLeave" text="Sit" />
                            </children>
                         </HBox>
-                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                        <HBox id="p4Label" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                            <children>
                               <Label id="PlayerLabel4" fx:id="PlayerLabel4" />
                            </children>
@@ -69,11 +69,126 @@
                      </children>
                   </GridPane>
                </children></HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <GridPane prefHeight="173.0" prefWidth="180.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="53.77776421440972" minHeight="10.0" prefHeight="19.11113823784722" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="118.66664632161458" minHeight="10.0" prefHeight="105.77775065104167" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="41.11113823784723" minHeight="10.0" prefHeight="41.11113823784723" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <HBox id="HBoxCardsp6" fx:id="HBoxCardsp51" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">
+                           <children>
+                              <Button id="btnSit6" mnemonicParsing="false" onAction="#btnSitLeave" text="Sit" />
+                           </children>
+                        </HBox>
+                        <HBox id="p6Label" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label id="PlayerLabel5" fx:id="PlayerLabel51" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children></HBox>
          </children>
       </HBox>
    </bottom>
    <center>
       <Button mnemonicParsing="false" onAction="#btnStartGame" text="Start Game" BorderPane.alignment="CENTER" />
    </center>
+   <top>
+      <HBox alignment="CENTER" prefHeight="173.0" prefWidth="200.0" spacing="25.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </BorderPane.margin>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <GridPane prefHeight="173.0" prefWidth="180.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="53.77776421440972" minHeight="10.0" prefHeight="19.11113823784722" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="118.66664632161458" minHeight="10.0" prefHeight="105.77775065104167" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="41.11113823784723" minHeight="10.0" prefHeight="41.11113823784723" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <HBox id="HBoxCardsp1" fx:id="HBoxCardsp41" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">
+                           <children>
+                              <Button id="btnSit1" mnemonicParsing="false" onAction="#btnSitLeave" text="Sit" />
+                           </children>
+                        </HBox>
+                        <HBox id="p1Label" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label id="PlayerLabel4" fx:id="PlayerLabel41" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <GridPane prefHeight="173.0" prefWidth="180.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="53.77776421440972" minHeight="10.0" prefHeight="19.11113823784722" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="118.66664632161458" minHeight="10.0" prefHeight="105.77775065104167" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="41.11113823784723" minHeight="10.0" prefHeight="41.11113823784723" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <HBox id="HBoxCardsp2" fx:id="HBoxCardsp42" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">
+                           <children>
+                              <Button id="btnSit2" mnemonicParsing="false" onAction="#btnSitLeave" text="Sit" />
+                           </children>
+                        </HBox>
+                        <HBox id="p2Label" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label id="PlayerLabel4" fx:id="PlayerLabel42" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <GridPane prefHeight="173.0" prefWidth="180.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="53.77776421440972" minHeight="10.0" prefHeight="19.11113823784722" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="118.66664632161458" minHeight="10.0" prefHeight="105.77775065104167" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="41.11113823784723" minHeight="10.0" prefHeight="41.11113823784723" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <HBox id="HBoxCardsp3" fx:id="HBoxCardsp43" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.rowIndex="2">
+                           <children>
+                              <Button id="btnSit3" mnemonicParsing="false" onAction="#btnSitLeave" text="Sit" />
+                           </children>
+                        </HBox>
+                        <HBox id="p3Label" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label id="PlayerLabel4" fx:id="PlayerLabel43" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
 </BorderPane>
